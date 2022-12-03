@@ -1,0 +1,6 @@
+.hobbies {
+  display: flex;
+  flex-direction: row;
+  gap: 4vw;
+
+}

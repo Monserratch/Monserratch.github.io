@@ -1,0 +1,26 @@
+.story {
+  align-self: center;
+  max-width: 40rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: rgba(66, 66, 66, 0.7);
+}
+
+.story--me,
+.story--knowledge {
+  row-gap: 1vw;
+  flex-direction: column;
+}
+
+@media screen and (max-device-width: 74rem) {
+  .story {
+    max-width: 100%;
+    gap: 2rem;
+  }
+
+  .story--me,
+  .story--knowledge {
+    row-gap: 1rem;
+  }
+
+}

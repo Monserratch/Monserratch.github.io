@@ -1,0 +1,11 @@
+.section {
+  display: flex;
+  min-height: 100vh;
+}
+
+.profile {
+  background-image: url('./../../img/img6.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

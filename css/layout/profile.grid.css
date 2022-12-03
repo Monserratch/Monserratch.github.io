@@ -1,0 +1,7 @@
+.profile {
+  width: 100%;
+  gap: 2rem;
+  padding-block: 2rem;
+  align-items: center;
+  justify-content: center;
+}
